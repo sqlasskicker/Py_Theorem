@@ -21,7 +21,7 @@ print ('\n**********************************************************************
 # c=√a²+b²
 # a=√c²-b²
 # b=√c²-a²
-print ("\nNote: For non decimal only\n ")
+
 
 print ('''Usage:•1• Enter side name which you want to find.Like- Hypotenuse,Perpendicular,Base.Remember first letter should be capital 
 •2• Then enter the two given side. ''')
@@ -34,10 +34,10 @@ if x== "Hypotenuse":
     print ("\nSolving For-\n")
     print (x)
     print ("\nEnter Perpendicular Side=\n")
-    a = float(int(input()))
+    a = float(input())
     print (a)
     print ("\nEnter Base side\n")
-    b = float(int(input()))
+    b = float(input())
     print (b)
     c=((a**2)+(b**2))
     print ("\n Hypotenuse =\n")
@@ -48,10 +48,10 @@ if x== "Perpendicular":
     print ("\nSolving For-\n")
     print (x)
     print ("\nEnter Hypotenuse Side=\n")
-    a = float(int(input()))
+    a = float(input())
     print (a)
     print ("\nEnter Base side\n")
-    b = float(int(input()))
+    b = float(input())
     print (b)
     d=((a**2)-(b**2))
     if a<b:
@@ -65,10 +65,10 @@ if x== "Base":
     print ("\nSolving For-\n")
     print (x)
     print ("\nEnter Hypotenuse Side=\n")
-    a = float(int(input()))
+    a = float(input())
     print (a)
     print ("\nEnter Perpendicular side\n")
-    b = float(int(input()))
+    b = float(input())
     print (b)
     e=((a**2)-(b**2))
     if a<b:
